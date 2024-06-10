@@ -1,0 +1,23 @@
+.separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10vw;
+}
+
+@media screen and (max-width: 825px) {
+    .separator {
+        margin: 10vw;
+    }
+}
+
+.separator .line {
+    height: 3px;
+    flex: 1;
+    background: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
+}
+
+.separator h2 {
+    padding: 0 2rem;
+    margin: 0%;
+}

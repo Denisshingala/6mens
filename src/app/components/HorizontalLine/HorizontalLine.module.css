@@ -1,0 +1,6 @@
+.line {
+    width: 80%;
+    height: 4px;
+    background: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
+    margin: 20px auto;
+}

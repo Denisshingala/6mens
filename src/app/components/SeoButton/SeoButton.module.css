@@ -1,0 +1,44 @@
+.seoButtonWrapper {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.seoButtonImg {
+    position: relative;
+    animation: rotate 10s linear infinite;
+}
+
+.downArrow {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    animation: up-down 1s infinite ease-in-out alternate;
+    
+}
+
+@keyframes up-down {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, 10px);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(359deg)
+    }
+}

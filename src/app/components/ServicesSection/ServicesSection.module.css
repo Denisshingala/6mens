@@ -1,0 +1,86 @@
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+
+.serviceSectionWrapper {
+    max-height: fit-content;
+}
+
+.titleSubHeading {
+    color: var(--gray);
+    margin-top: 10px;
+    line-height: 1.5;
+    max-width: 50ch;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonialGroup {
+    background-color: var(--background-color);
+    color: white;
+    padding: 30px;
+}
+
+.testimonialGroup h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimonialGroup .sliderWrapperCard {
+    border-radius: 16px;
+    box-shadow: #959da533 0px 8px 24px;
+    padding: 30px 25px;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+.testimonialGroup .sliderWrapperCard h5 {
+    font-size: 20px;
+}
+
+.testimonialGroup .mySwiper {
+    padding-bottom: 90px;
+}
+
+.swiperButtonNext:after,
+.swiperButtonPrev:after {
+    font-size: 25px !important;
+    line-height: 1;
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+    bottom: 0px;
+    top: auto;
+    color: gray;
+}
+
+.swiperButtonNext {
+    right: 40%;
+}
+
+.swiperButtonPrev {
+    left: 40%;
+}
+
+@media only screen and (max-width: 991.98px) {
+    .swiperButtonNext {
+        right: 20%;
+    }
+
+    .swiperButtonPrev {
+        left: 20%;
+    }
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+}
+
+.starIcon {
+    color: #FBCF39;
+}

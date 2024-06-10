@@ -1,0 +1,47 @@
+.heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #fff;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    text-transform: uppercase;
+    height: 70vh;
+    font-family: 'Montserrat-Bold';
+    font-weight: 800;
+}
+
+.titleSubHeading {
+    color: var(--gray);
+    margin-top: 10px;
+    line-height: 1.5;
+    max-width: 50ch;
+}
+
+.tableContent {
+    font-size: x-large;
+    color: silver;
+    padding: 30px;
+}
+
+.tableContent table {
+    border: 1px solid white;
+}
+
+.tableContent th {
+    border-right: 1px solid white;
+}
+
+.tableContent table,
+.tableContent tbody,
+.tableContent thead,
+.tableContent tr,
+.tableContent th,
+.tableContent td {
+    background-color: transparent !important;
+    color: white;
+}

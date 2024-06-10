@@ -1,0 +1,30 @@
+/* .card {
+    height: fit-content;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.4s ease;
+    margin: 20px;
+}*/
+
+.card:before {
+    height: 100%;
+    width: calc(100% + 100px);
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to top, var(--background-color) 0%, #555555 100%);
+    border-radius: 0px !important;
+    transition: all 0.4s ease-out;
+    top: 0;
+}
+
+.card:hover::before {
+    height: 100%;
+    border-radius: 0% !important;
+}

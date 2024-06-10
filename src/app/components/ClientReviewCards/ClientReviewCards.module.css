@@ -1,0 +1,22 @@
+
+.sliderWrapperCard {
+    border-radius: 16px;
+    box-shadow: #ffffff33 0px 8px 24px;
+    padding: 30px 25px;
+    margin: 10px;
+    border: 1px solid gray;
+    color: white;
+    background-color: black;
+}
+
+.sliderWrapperCard h5 {
+    font-size: 20px;
+}
+
+.mySwiper {
+    padding-bottom: 90px;
+}
+
+.starIcon{
+    color: #FBCF39;
+}

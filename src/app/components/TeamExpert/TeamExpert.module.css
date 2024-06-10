@@ -1,0 +1,19 @@
+.teamExpertWrapper{
+    min-height: max-content;
+}
+
+.teamExpertSubHeading {
+    color: var(--gray);
+    margin-top: 10px;
+    max-width: 50ch;
+    line-height: 1.5;
+}
+
+.teamExpertCards {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}

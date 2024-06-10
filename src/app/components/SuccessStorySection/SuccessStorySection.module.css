@@ -1,0 +1,104 @@
+.successStorySectionWrapper {
+    max-height: fit-content;
+    position: relative;
+    padding-top: 100px;
+}
+
+.projectWrapperBg {
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    top: -42px;
+    overflow: hidden;
+    padding-top: 150px;
+}
+
+.projectWrapperBg .halfPlanet {
+    z-index: 8;
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .projectWrapperBg{
+        display: none;
+    }
+
+    .successStorySectionWrapper {
+        padding-top: 0px;
+    }
+}
+
+.rotatingImg1 {
+    z-index: 6;
+    width: 82.969vw;
+    position: absolute;
+    bottom: auto;
+    left: 10vw;
+    margin-top: 35px;
+    animation: rotateAnimation1 20s linear infinite;
+    transform-style: preserve-3d;
+    will-change: transform;
+    right: auto;
+}
+
+.rotatingImg2 {
+    z-index: 7;
+    width: 104.141vw;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    margin-top: -30px;
+    animation: rotateAnimation2 20s linear infinite;
+    transform-style: preserve-3d;
+    will-change: transform;
+    right: auto;
+}
+
+@keyframes rotateAnimation1 {
+    from {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+
+    to {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+    }
+}
+
+@keyframes rotateAnimation2 {
+    from {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+
+    to {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-360deg) skew(0deg, 0deg);
+    }
+}
+
+.successStorySection {
+    position: relative;
+    z-index: 10;
+    margin-top: 250px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .successStorySection {
+        margin-top: 150px;
+    }
+}
+
+.subHeading {
+    color: var(--gray);
+    margin-top: 10px;
+    line-height: 1.5;
+    max-width: 50ch;
+}
+
+.storyCardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}

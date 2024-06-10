@@ -1,0 +1,71 @@
+.container {
+    height: max-content;
+    padding: 20px 0;
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Abel', sans-serif;
+    background-color: white;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 20px;
+}
+
+.imageDiv {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 125px;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-25deg);
+    overflow: hidden;
+    padding: 0%;
+}
+
+.image{
+    height: max-content;
+}
+
+.shape {
+    height: 250px;
+    width: 400px;
+    background-color: black;
+    margin-left: -20px;
+    position: relative;
+    top: -115px;
+    box-shadow: 0 2px 15px black;
+    transform: rotate(25deg);
+}
+
+.name {
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    color: rgb(105, 100, 109);
+}
+
+.subHeading {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(105, 100, 109);
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons svg {
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.icons svg:hover {
+    transform: scale(1.5);
+    color: rgb(0, 0, 0);
+}

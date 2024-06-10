@@ -1,0 +1,94 @@
+.contactSectionWrapper {
+    padding: 30px auto;
+    color: white;
+    filter: brightness(10px)
+}
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #fff;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: transparent;
+    font-family: 'Montserrat-Bold';
+    font-weight: 800;
+    height: 65vh;
+}
+
+.contactWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactSectionWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.upperWrapper {
+    height: fit-content;
+}
+
+.lowerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactForm {
+    max-width: 800px !important;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contactForm .head {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.contactForm .head {
+    padding: 20px 30px 10px 30px;
+}
+
+.contactForm .body {
+    padding: 30px;
+}
+
+.rightWrapper h2 {
+    margin: 40px 0 20px 0;
+}
+
+.rightWrapper p {
+    line-height: 1.5;
+}
+
+.input,
+.startProjectButton,
+.loadingButton {
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 24px !important;
+}
+
+.startProjectButton {
+    color: black !important;
+}
+
+.loadingButton {
+    color: silver !important;
+    border: 1px solid rgba(256, 256, 256, 0.12) !important;
+    background-color: gray !important;
+    cursor: progress !important;
+}
+
+.loadingButton span {
+    position: initial;
+}

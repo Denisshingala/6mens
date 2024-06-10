@@ -1,0 +1,7 @@
+.reactCalendar {
+    width: 100%;
+}
+
+.reactCalendar .react-calendar__tile {
+    color: red !important;
+}
