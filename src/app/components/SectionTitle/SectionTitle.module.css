@@ -10,9 +10,13 @@
 .heading {
     font-size: 40px;
     color: white;
+    text-shadow: 1px 1px 7px rgba(255, 255, 255),
+        0px 8px 13px rgba(255, 255, 255, 0.1),
+        0px 18px 23px rgba(255, 255, 255, 0.1);
     @media screen and (max-width: 768px) {
         font-size: 30px;
     }
+
     max-width: 30ch;
 }
 

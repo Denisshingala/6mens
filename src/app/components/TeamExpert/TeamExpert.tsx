@@ -10,12 +10,12 @@ const TeamExpert = () => {
 
     const subHeading = (
         <p className={styles.teamExpertSubHeading}>
-            We have assembled a group of <b>highly skilled</b> professionals who are dedicated to delivering <b>exceptional</b> results.
+            Discover the <b>talented professionals</b> at 6Mens Infotech, dedicated to delivering <b>innovative digital</b> solutions and <b>exceptional</b> client service.
         </p>
     )
     return (
         <div className={`${styles.teamExpertWrapper} pb-5`}>
-            <SectionTitle heading="Team Expert" subHeading={subHeading} />
+            <SectionTitle heading="Meet Our Team" subHeading={subHeading} />
             <div className={styles.teamExpertCards}>
                 {
                     teamExperts && teamExperts.map((teamExpert, index) => {

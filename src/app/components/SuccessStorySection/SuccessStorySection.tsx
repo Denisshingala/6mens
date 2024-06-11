@@ -7,7 +7,7 @@ import LanguageSlider from '../LanguageSlider/LanguageSlider';
 const SuccessStorySection = () => {
     const subHeading = (
         <p className={styles.subHeading}>
-            More than 50+ <b>successful</b> projects, <b>200+ satisfied</b> souls, 500+ good vibes. Join us on this creative journey and see how we bring ideas to life
+            We've <b>successfully</b> completed two projects, leaving our clients <b>happy</b> and <b>satisfied</b>. Join us on this <b>creative</b> journey and see how we bring ideas to life.
         </p>
     );
 

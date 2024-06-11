@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './LanguageSlider.module.css'
 import Script from 'next/script'
 import 'devicon';
+import { icon } from '@fortawesome/fontawesome-svg-core';
 
 const LanguageSlider = () => {
 
@@ -23,6 +24,30 @@ const LanguageSlider = () => {
         },
         {
             icon: "devicon-amazonwebservices-plain-wordmark"
+        },
+        {
+            icon: "devicon-kotlin-plain-wordmark"
+        },
+        {
+            icon: "devicon-flutter-plain"
+        },
+        {
+            icon: "devicon-photoshop-plain"
+        },
+        {
+            icon: "devicon-figma-plain"
+        },
+        {
+            icon: "devicon-canva-original"
+        },
+        {
+            icon: "devicon-python-plain-wordmark"
+        },
+        {
+            icon: "devicon-apache-plain-wordmark"
+        },
+        {
+            icon: "devicon-docker-plain-wordmark"
         }
     ]
 

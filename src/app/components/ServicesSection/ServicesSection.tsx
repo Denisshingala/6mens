@@ -18,14 +18,14 @@ const ServicesSection = () => {
 
     const serviceSubHeading = (
         <p className={styles.titleSubHeading}>
-            <b>6 Mens</b> is 6 Mens is a team of IT outsourcing business professionals with 10 years of experience and a reputation for offshore <b>web & Mobile development.</b>
+            <b>Zero to zenith:</b> Igniting IT innovation with fresh minds and boundless ambition.
         </p>
     )
 
     return (
         <>
             <div className={`${styles.serviceSectionWrapper} text-center`}>
-                <SectionTitle heading="Preparing For Your Success Provide Best IT Solutions." subHeading={serviceSubHeading} className="pb-0" />
+                <SectionTitle heading="Transforming ideas into digital reality with expert IT solutions." subHeading={serviceSubHeading} className="pb-0" />
             </div>
             <SeoButton />
             <Swiper

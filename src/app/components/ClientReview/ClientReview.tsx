@@ -6,7 +6,7 @@ import ClientReviewCards from '../ClientReviewCards/ClientReviewCards'
 const ClientReview = () => {
     const subHeading = (
         <p className={styles.clientReviewSubHeading}>
-            Amazing website! It exceeded all my <b>expectations</b>, delivering an <b>exceptional</b> user experience.
+            Please take a <b>look</b> at what our clients have to say about us in <b>their reviews</b>.
         </p>
     )
 

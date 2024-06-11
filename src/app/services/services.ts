@@ -6,7 +6,7 @@ export const services = [
     },
     title: "Web Design & Development",
     description:
-      "Web design focuses on crafting the visual elements and layout of a website.",
+      "Transforming your vision into pixel-perfect reality through expert web design and development. <br> Technologies: HTML, CSS, JavaScript, React.js, Angular, Node.js, PHP, Laravel, WordPress",
   },
   {
     img: {
@@ -15,16 +15,16 @@ export const services = [
     },
     title: "Software Development",
     description:
-      "Software developers design, code, construct, deploy, and maintain software applications, leveraging diverse skills and tools.",
+      "Creating customized software solutions to meet your business's unique needs, driving innovation and growth. ",
   },
   {
     img: {
       url: "/services/service-3.png",
       alt: "service-3",
     },
-    title: "Mobile Development",
+    title: "Android app devlopment",
     description:
-      "Mobile web development - optimizing web apps for mobile devices is necessary for modern apps. ",
+      "Building mobile apps that connect with users on a personal level, tailored to meet your business goals and enhance growth.",
   },
   {
     img: {
@@ -33,7 +33,7 @@ export const services = [
     },
     title: "Data analyst",
     description:
-      "Analysis involves deconstructing something into its individual elements and asking critical questions like WHY and HOW to draw your own conclusions.",
+      "Turning raw data into actionable insights, empowering your business to make informed and strategic decisions.",
   },
   {
     img: {
@@ -42,7 +42,7 @@ export const services = [
     },
     title: "IOS developer",
     description:
-      "Designing and developing advanced applications for the iOS platform. Working with cross-functional teams to define, design, and launch new features.",
+      "Developing elegant and high-performance iOS apps that transform your business and delight users.",
   },
   {
     img: {
@@ -51,16 +51,16 @@ export const services = [
     },
     title: "Graphics Design",
     description:
-      "Graphic design is 'the art and practice of planning and projecting ideas and experiences with visual and textual content'.",
+      "Creating visually stunning and impactful graphic designs that capture your brand's essence and engage your audience.",
   },
   {
     img: {
       url: "/services/service-7.jpg",
       alt: "service-7",
     },
-    title: "Web Developer",
+    title: "Social media manager ",
     description:
-      "Web development, also known as website development, encompasses the tasks involved in creating, building, and maintaining websites and web applications that operate online via a browser.",
+      "Managing your social media presence to boost engagement, grow your audience, and enhance your brand's online visibility.",
   },
   {
     img: {
@@ -69,6 +69,15 @@ export const services = [
     },
     title: "E-Commerce Design",
     description:
-      "An eCommerce website is an online platform where buyers shop for goods and sellers offer products and services.",
+      "Designing intuitive and engaging e-commerce platforms that enhance user experience, drive sales, and reflect your brand's identity.",
+  },
+  {
+    img: {
+      url: "/services/service-9.png",
+      alt: "service-9",
+    },
+    title: "AI Solution",
+    description:
+      "Developing customized AI solutions and applications for various industries, including healthcare, finance, and retail, and building complete AI products from concept to deployment.",
   },
 ];

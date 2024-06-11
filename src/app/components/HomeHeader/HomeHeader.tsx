@@ -33,7 +33,7 @@ const HomeHeader = () => {
                 }}
                 className={styles.headerTitle}
               >
-                Providing The Best <br /> IT Solutions.
+                Code for vision.
               </motion.h1>
               <motion.p
                 initial={{ x: 100, opacity: 0 }}
