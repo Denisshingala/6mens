@@ -26,6 +26,7 @@ const TeamExpert = () => {
                                 name={teamExpert.name}
                                 profession={teamExpert.profession}
                                 description={teamExpert.description}
+                                socialLinks={teamExpert.socialLinks}
                             />
                         )
                     })

@@ -1,7 +1,7 @@
 .container {
     height: max-content;
     padding: 20px 0;
-    width: 300px;
+    width: 350px;
     text-align: center;
     overflow: hidden;
     font-family: 'Abel', sans-serif;
@@ -15,8 +15,8 @@
     width: 200px;
     border-radius: 50%;
     position: absolute;
-    top: 150px;
-    left: 125px;
+    top: 160px;
+    left: 160px;
     box-shadow: 0 2px 15px rgb(58, 54, 54);
     transform: rotate(-25deg);
     overflow: hidden;
@@ -28,8 +28,8 @@
 }
 
 .shape {
-    height: 250px;
-    width: 400px;
+    height: 270px;
+    width: 455px;
     background-color: black;
     margin-left: -20px;
     position: relative;
@@ -49,6 +49,7 @@
 }
 
 .subHeading {
+    min-height: 180px;
     padding-left: 30px;
     padding-right: 30px;
     color: rgb(105, 100, 109);

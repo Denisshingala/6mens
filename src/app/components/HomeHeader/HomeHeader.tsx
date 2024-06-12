@@ -2,6 +2,7 @@
 import React from 'react'
 import styles from './HomeHeader.module.css'
 import { motion } from 'framer-motion'
+import backgroudUrl from '../../assets/images/header-background.jpg';
 
 const HomeHeader = () => {
   return (
@@ -32,8 +33,9 @@ const HomeHeader = () => {
                   duration: 1,
                 }}
                 className={styles.headerTitle}
+                // style={{"background": `url('${backgroudUrl.src}') top`}}
               >
-                Code for vision.
+                Code for visi<img src='img/logo/robot-eye.svg' alt='robot eye' width={50} className='mt-2'/>n!
               </motion.h1>
               <motion.p
                 initial={{ x: 100, opacity: 0 }}

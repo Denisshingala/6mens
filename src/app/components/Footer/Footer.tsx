@@ -11,7 +11,6 @@ import { FACEBOOK_LINK, INSTAGRAM_LINK, LINKEDIN_LINK } from '@/app/constants/so
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import Button from '../Button/Button'
 import { motion } from 'framer-motion';
-import { getCalApi } from "@calcom/embed-react";
 
 const Footer = () => {
   const currentYear: number = getCurrentYear();
@@ -54,8 +53,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className={styles.addressWrapper}>
-            <h4 className={styles.heading}>Address</h4>
-            <p>607 Boylston St, Suite 146L Boston, MA 02116</p>
+            <h4 className={styles.heading}>Mobile No.</h4>
+            <p> +4917682312427</p>
           </div>
 
           <div className={styles.pageLinksWrapper}>

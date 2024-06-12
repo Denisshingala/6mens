@@ -3,10 +3,10 @@ import React from 'react'
 import styles from './ProfileCard.module.css';
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import Image from 'next/image';
+import { faFacebook, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
 
-const ProfileCard = ({ profile, name, profession, description, socialLinks = {} }: any) => {
+const ProfileCard = ({ profile, name, profession, description, socialLinks = { facebook: "#", instagram: "#", twitter: "#", linkedin: "#" } }: any) => {
     return (
         <motion.div
             initial={{ x: 100, opacity: 0 }}
@@ -27,10 +27,10 @@ const ProfileCard = ({ profile, name, profession, description, socialLinks = {} 
             <h5 className={styles.title}>{profession}</h5>
             <p className={styles.subHeading}>{description}</p>
             <div className={styles.icons}>
-                <FontAwesomeIcon icon={faFacebook} />
-                <FontAwesomeIcon icon={faInstagram} />
-                <FontAwesomeIcon icon={faPinterest} />
-                <FontAwesomeIcon icon={faTwitter} />
+                <Link href={socialLinks.facebook} target='_blank'><FontAwesomeIcon icon={faFacebook} /></Link>
+                <Link href={socialLinks.instagram} target='_blank'><FontAwesomeIcon icon={faInstagram} /></Link>
+                <Link href={socialLinks.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn   } /></Link>
+                <Link href={socialLinks.twitter} target='_blank'><FontAwesomeIcon icon={faTwitter} /></Link>
             </div>
         </motion.div>
     )
