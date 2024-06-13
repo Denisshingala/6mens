@@ -27,10 +27,8 @@ const ProfileCard = ({ profile, name, profession, description, socialLinks = { f
             <h5 className={styles.title}>{profession}</h5>
             <p className={styles.subHeading}>{description}</p>
             <div className={styles.icons}>
-                <Link href={socialLinks.facebook} target='_blank'><FontAwesomeIcon icon={faFacebook} /></Link>
                 <Link href={socialLinks.instagram} target='_blank'><FontAwesomeIcon icon={faInstagram} /></Link>
-                <Link href={socialLinks.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn   } /></Link>
-                <Link href={socialLinks.twitter} target='_blank'><FontAwesomeIcon icon={faTwitter} /></Link>
+                <Link href={socialLinks.linkedin} target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /></Link>
             </div>
         </motion.div>
     )

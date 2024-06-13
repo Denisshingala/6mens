@@ -3,6 +3,8 @@ import React from 'react'
 import styles from './HomeHeader.module.css'
 import { motion } from 'framer-motion'
 import backgroudUrl from '../../assets/images/header-background.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 const HomeHeader = () => {
   return (
@@ -33,9 +35,9 @@ const HomeHeader = () => {
                   duration: 1,
                 }}
                 className={styles.headerTitle}
-                // style={{"background": `url('${backgroudUrl.src}') top`}}
+                style={{"background": `url('${backgroudUrl.src}') top`}}
               >
-                Code for visi<img src='img/logo/robot-eye.svg' alt='robot eye' width={50} className='mt-2'/>n!
+                Code for visi <FontAwesomeIcon icon={faEye} className={styles.headerTitle} style={{"background": `url('${backgroudUrl.src}') top`}}/> n!
               </motion.h1>
               <motion.p
                 initial={{ x: 100, opacity: 0 }}

@@ -55,7 +55,7 @@ export const teamExperts = [
     },
   },
   { 
-    profile: "/img/experts/expert.jpg",
+    profile: "/img/experts/anum-choudhary.jpg",
     name: "Anum Choudhary",
     profession: "Data analyst",
     description:

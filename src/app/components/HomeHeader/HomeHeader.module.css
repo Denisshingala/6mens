@@ -35,9 +35,9 @@
 }
 
 .headerTitle {
-    /* text-transform: uppercase;
-    background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    text-transform: uppercase;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
     font-size: 3rem;
     font-weight: bolder;
 }

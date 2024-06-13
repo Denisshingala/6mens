@@ -38,7 +38,7 @@ const Footer = () => {
             <h4 className={styles.heading}>Connect with Us</h4>
             <p>
               <FontAwesomeIcon icon={faPhone} className={styles.socialIcon} />
-              +1 (617) 681-4114
+              +4917682312427
             </p>
             <ul className={styles.footerLinks}>
               <li className={`${styles.footerList} float-start me-3 fs-4`}>
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className={styles.addressWrapper}>
             <h4 className={styles.heading}>Mobile No.</h4>
-            <p> +4917682312427</p>
+            <p></p>
           </div>
 
           <div className={styles.pageLinksWrapper}>
