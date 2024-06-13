@@ -52,10 +52,10 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.addressWrapper}>
+          {/* <div className={styles.addressWrapper}>
             <h4 className={styles.heading}>Mobile No.</h4>
             <p></p>
-          </div>
+          </div> */}
 
           <div className={styles.pageLinksWrapper}>
             <h4 className={styles.heading}>Links</h4>
