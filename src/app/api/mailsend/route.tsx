@@ -8,7 +8,7 @@ const nodemailer = require("nodemailer");
 
 
 export async function POST(request: Request) {
-  const getEmailHTMLContent = (name: string, email: string, subject: string, message: string) => {
+  const getEmailHTMLContent = (name: string, email: string, subject: string, referenceBy: string, message: string) => {
     return (`
         <html>
           <head>
@@ -47,6 +47,7 @@ export async function POST(request: Request) {
                   <p><strong>Subject:</strong> ${subject}</p>
                   <p><strong>Message:</strong></p>
                   <p>${message}</p>
+                  <p><strong>Reference:</strong> ${referenceBy}</p>
                 </div>
               </div>
             </div>
@@ -78,6 +79,7 @@ export async function POST(request: Request) {
       data?.name,
       data?.email,
       data?.subject,
+      data?.referenceBy,
       data?.message
     );
 

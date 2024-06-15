@@ -5,6 +5,8 @@ import { motion } from 'framer-motion'
 import backgroudUrl from '../../assets/images/header-background.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 const HomeHeader = () => {
   return (
@@ -35,9 +37,11 @@ const HomeHeader = () => {
                   duration: 1,
                 }}
                 className={styles.headerTitle}
-                style={{"background": `url('${backgroudUrl.src}') top`}}
+              // style={{ "background": `url('${backgroudUrl.src}') top` }}
               >
-                Code for visi <FontAwesomeIcon icon={faEye} className={styles.headerTitle} style={{"background": `url('${backgroudUrl.src}') top`}}/> n!
+                <span className={styles.selected}>Code</span> <span className={styles.notSelected}>for</span> <span className={styles.selected}>Visi<span className={styles.normalText}>o</span><FontAwesomeIcon icon={faEye} size='xs' className={`${styles.headerImage} mx-1`} />n!</span>
+
+                {/* <img src='img/logo/robot-eye.svg' alt='robot eye' width={70} className={`${styles.headerImage}`} /> */}
               </motion.h1>
               <motion.p
                 initial={{ x: 100, opacity: 0 }}

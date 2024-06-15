@@ -1,7 +1,6 @@
 import React, { ReactNode } from 'react';
 import styles from './Button.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Link from 'next/link';
 import { getCalApi } from "@calcom/embed-react";
 
 interface ButtonProps {

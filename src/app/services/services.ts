@@ -6,7 +6,7 @@ export const services = [
     },
     title: "Web Design & Development",
     description:
-      "Transforming your vision into pixel-perfect reality through expert web design and development. <br> Technologies: HTML, CSS, JavaScript, React.js, Angular, Node.js, PHP, Laravel, WordPress",
+      "Transforming your vision into pixel-perfect reality through expert web design and development.",
   },
   {
     img: {

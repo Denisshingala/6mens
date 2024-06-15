@@ -8,6 +8,7 @@ interface TextInputProps {
     inputClassName?: string;
     rightIcon?: any;
     name?: string;
+    id?: string;
     value?: string;
     onChange?: (e:any) => void;
 }
@@ -20,10 +21,11 @@ const TextInput = ({
     rightIcon,
     name,
     value,
+    id,
     onChange,
 }: TextInputProps) => {
     return (
-        <div className={`${styles.inputWrapper} ${className}`}>
+        <div className={`${styles.inputWrapper} ${className}`} id={id}>
             {
                 type === 'textarea' ?
                     <textarea

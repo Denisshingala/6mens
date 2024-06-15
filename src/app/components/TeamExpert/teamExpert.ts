@@ -6,20 +6,20 @@ export const teamExperts = [
     description:
       "As the founder and manager of 6Mens Infotech, I drive our strategic vision, build a talented team, nurture client relationships, and explore new opportunities for innovative solutions.",
     socialLinks: {
-      linkedin: "www.linkedin.com/in/parth-mangukiya-3aa6691bb",
+      linkedin: "https://www.linkedin.com/in/parth-mangukiya-3aa6691bb",
       facebook: "#",
       twitter: "#",
       instagram: "https://www.instagram.com/pm__1882",
     },
   },
   {
-    profile: "/img/experts/expert.jpg",
+    profile: "/img/experts/ayush-kanani.jpg",
     name: "Ayush kanani",
     profession: "Founder and frontend Devloper",
     description:
       "As co-founder and front-end developer at 6Mens Infotech, I drive user experience excellence and strategic growth.",
     socialLinks: {
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/ayush-kanani-59601a314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       github: "#",
       facebook: "#",
       twitter: "#",

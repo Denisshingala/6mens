@@ -13,6 +13,7 @@ import SeoButton from '../components/SeoButton/SeoButton';
 import styles from './services.module.css'
 import { motion } from 'framer-motion';
 import Loader from '../components/Loader/Loader';
+import HorizontalLine from '../components/HorizontalLine/HorizontalLine';
 
 const Services = () => {
 
@@ -274,6 +275,7 @@ const Services = () => {
         className={styles.contactSectionWrapper}
       >
         <h1 className={styles.heading}>Services</h1>
+        <HorizontalLine />
         <SectionTitle heading="Preparing For Your Success Provide Best IT Solutions." subHeading={serviceSubHeading} className="pb-0" />
       </motion.div>
       <SeoButton />

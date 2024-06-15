@@ -12,6 +12,42 @@
     height: 85vh;
 }
 
+.headerTitle span {
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.headerTitle:hover .notSelected {
+    color: gray;    
+}
+
+.headerTitle:hover .headerImage {
+    display: inline;
+    color: #fff;
+    filter: drop-shadow(0 0 20px #fff);
+    text-shadow: 1px 1px 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.headerTitle:hover .normalText {
+    display: none;
+}
+
+.headerTitle:hover span:nth-child(1) {
+    margin-right: 10px;
+}
+
+.headerTitle:hover span:nth-child(3) {
+    margin-left: 10px;
+}
+
+.headerTitle:hover .selected {
+    color: gray;    
+}
+
+.headerImage {
+    display: none;
+}
+
 .object {
     width: 300px;
     animation: up-down 2s infinite ease-in-out;
@@ -36,8 +72,8 @@
 
 .headerTitle {
     text-transform: uppercase;
-    background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+    /* background-clip: text !important;
+    -webkit-text-fill-color: transparent !important; */
     font-size: 3rem;
     font-weight: bolder;
 }
