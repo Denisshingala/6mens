@@ -29,6 +29,11 @@
     animation: rotateBorder 5s linear infinite;
 }
 
+.aboutSubHeading{
+    color: silver;
+    font-style: "Montserrat", sans-serif;
+}
+
 @keyframes rotateBorder {
     0% {
         transform: translate(-50%, -50%) rotate(0deg);

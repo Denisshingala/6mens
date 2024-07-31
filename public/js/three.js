@@ -25,7 +25,7 @@ function init() {
             Math.random() * 600 - 300
         );
         star.velocity = 0;
-        star.acceleration = 0.02;
+        star.acceleration = 0.0002;
         starGeo.vertices.push(star);
     }
 
@@ -54,7 +54,7 @@ function animate() {
     });
     starGeo.verticesNeedUpdate = true;
     renderer.render(scene, camera);
-    stars.rotation.y += 0.002;
+    stars.rotation.y += 0.0000002;
     requestAnimationFrame(animate);
 }
 init();

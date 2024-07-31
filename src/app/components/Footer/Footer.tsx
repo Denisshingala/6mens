@@ -8,7 +8,7 @@ import { getCurrentYear } from '../../utils/date'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FACEBOOK_LINK, INSTAGRAM_LINK, LINKEDIN_LINK } from '@/app/constants/social'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faVoicemail } from '@fortawesome/free-solid-svg-icons'
 import Button from '../Button/Button'
 import { motion } from 'framer-motion';
 
@@ -36,6 +36,10 @@ const Footer = () => {
 
           <div className={styles.contactWrapper}>
             <h4 className={styles.heading}>Connect with Us</h4>
+            <p>
+              <FontAwesomeIcon icon={faEnvelope} className={styles.socialIcon} />
+              inquiry@6mensinfotech.com
+            </p>
             <p>
               <FontAwesomeIcon icon={faPhone} className={styles.socialIcon} />
               +4917682312427

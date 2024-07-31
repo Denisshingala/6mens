@@ -2,7 +2,7 @@ export const teamExperts = [
   {
     profile: "/img/experts/parth-mangukiya.jpg",
     name: "Parth Mangukiya",
-    profession: "Founder and manager",
+    profession: "Head of Founder and manager",
     description:
       "As the founder and manager of 6Mens Infotech, I drive our strategic vision, build a talented team, nurture client relationships, and explore new opportunities for innovative solutions.",
     socialLinks: {
@@ -15,7 +15,7 @@ export const teamExperts = [
   {
     profile: "/img/experts/ayush-kanani.jpg",
     name: "Ayush kanani",
-    profession: "Founder and frontend Devloper",
+    profession: "Head of Founder and frontend Devloper",
     description:
       "As co-founder and front-end developer at 6Mens Infotech, I drive user experience excellence and strategic growth.",
     socialLinks: {
@@ -29,7 +29,7 @@ export const teamExperts = [
   {
     profile: "/img/experts/tirth-kalathiya.jpg",
     name: "Tirth Kalathiya",
-    profession: "Website designer",
+    profession: "Head of Website designer",
     description:
       "As a website designer at 6Mens Infotech, I create visually stunning, user-friendly websites that enhance user experience and engagement.",
     socialLinks: {
@@ -43,7 +43,7 @@ export const teamExperts = [
   {
     profile: "/img/experts/dharmesh-patel.jpg",
     name: "Dharmesh Patel",
-    profession: "AI Solutions Engineer",
+    profession: "Head of AI Solutions Engineer",
     description:
       "As a AI Solutions Engineer focused on creating and deploying AI solutions tailored to industry-specific needs.",
     socialLinks: {
@@ -57,7 +57,7 @@ export const teamExperts = [
   { 
     profile: "/img/experts/anum-choudhary.jpg",
     name: "Anum Choudhary",
-    profession: "Data analyst",
+    profession: "Head of Data analyst",
     description:
       "As a data analyst at 6Mens Infotech, I transform raw data into actionable insights, empowering businesses to make informed and strategic decisions.",
     socialLinks: {
@@ -71,7 +71,7 @@ export const teamExperts = [
   { 
     profile: "/img/experts/neel-jetani.jpg",
     name: "Neel Jetani",
-    profession: "UI/UX Designer",
+    profession: "Head of UI/UX Designer",
     description:
       "As a UI/UX designer at 6Mens Infotech, I create intuitive and visually appealing interfaces that enhance user experience and ensure seamless interaction with digital products.",
     socialLinks: {
@@ -85,7 +85,7 @@ export const teamExperts = [
   { 
     profile: "/img/experts/expert.jpg",
     name: "Hinal Mangukiya",
-    profession: "Figma Developer",
+    profession: "Head of Figma Developer",
     description:
       "As a Figma developer at 6Mens Infotech, I specialize in creating interactive and intuitive design prototypes that streamline the development process and enhance user experience.",
     socialLinks: {
@@ -99,7 +99,7 @@ export const teamExperts = [
   { 
     profile: "/img/experts/mihir-rathod.jpg",
     name: "Mihir Rathod",
-    profession: "Sales Manager",
+    profession: "Head of Sales Manager",
     description:
       "As the sales manager at 6Mens Infotech, I drive business growth by developing strategic sales plans, building strong client relationships, and leading our sales team to achieve outstanding results.",
     socialLinks: {

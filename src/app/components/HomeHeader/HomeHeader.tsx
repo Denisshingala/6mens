@@ -23,7 +23,7 @@ const HomeHeader = () => {
               duration: 1
             }}
           >
-            <img className={`${styles.object} img-fluid`} src="keyboard.png" width="100" />
+            <img className={`${styles.object} img-fluid`} src="img/Home-logo.gif" />
           </motion.div>
           <div className={`col-6 ${styles.homeHeader}`}>
             <div className="raw">

@@ -9,10 +9,11 @@ import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs';
 import TeamExpert from './components/TeamExpert/TeamExpert';
 import HorizontalLine from './components/HorizontalLine/HorizontalLine';
 import Loader from './components/Loader/Loader';
+import background from "./assets/images/team-bg.webp"
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={styles.main} style={{"background": background.src}}>
       <Loader />
       <HomeHeader />
       <HorizontalLine />

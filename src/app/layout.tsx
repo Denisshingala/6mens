@@ -8,6 +8,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Scroller from "./components/Scoller/Scroller";
 import Loader from "./components/Loader/Loader";
+import background from "./assets/images/team-bg.webp"
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });

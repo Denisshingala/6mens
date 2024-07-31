@@ -255,7 +255,7 @@ const Services = () => {
 
   const serviceSubHeading = (
     <p className={styles.titleSubHeading}>
-      <b>6 Mens</b> is 6 Mens is a team of IT outsourcing business professionals with 10 years of experience and a reputation for offshore <b>web & Mobile development.</b>
+      <b>Zero to zenith:</b> Igniting IT innovation with fresh minds and boundless ambition.
     </p>
   );
 
