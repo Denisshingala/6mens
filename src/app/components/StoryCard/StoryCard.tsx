@@ -15,12 +15,12 @@ const StoryCard = ({ img = '', description = '', year = '', className = '', keys
     return (
         <>
             <motion.div
-                initial={{ x: (Number(keys) % 2 != 0 ? 100 : -100), opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
+                initial={{ y: (Number(keys) % 2 != 0 ? 100 : -100), opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{
                     delay: 0.1,
-                    x: { type: "spring", stiffness: 60 },
+                    y: { type: "spring", stiffness: 60 },
                     opacity: { duration: 0.2 },
                     ease: "easeInOut",
                     duration: 1,
