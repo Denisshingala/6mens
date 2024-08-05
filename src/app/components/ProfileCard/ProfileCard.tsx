@@ -9,11 +9,11 @@ import Link from 'next/link';
 const ProfileCard = ({ profile, name, profession, description, socialLinks = { facebook: "#", instagram: "#", twitter: "#", linkedin: "#" } }: any) => {
     return (
         <motion.div
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-                x: { type: "spring", stiffness: 60 },
+                y: { type: "spring", stiffness: 60 },
                 opacity: { duration: 0.2 },
                 ease: "easeInOut",
             }}
