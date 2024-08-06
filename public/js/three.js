@@ -25,7 +25,7 @@ function init() {
             Math.random() * 600 - 300
         );
         star.velocity = 0;
-        star.acceleration = 0.005;
+        star.acceleration = 0.04;
         starGeo.vertices.push(star);
     }
 

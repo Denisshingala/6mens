@@ -12,7 +12,7 @@ const HomeHeader = () => {
   return (
     <>
       <div className={`${styles.homeHeadersWrapper} container`}>
-        <div className="row">
+        <div className={` row`}>
           <motion.div className="col-lg-4"
             initial={{ x: -200, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
