@@ -377,42 +377,6 @@ const Services = () => {
         }}
         className={styles.tableContent}>
         <table className="table table-hover">
-          <tbody>
-            {
-              about.length && about.map((about, index) => {
-                return (
-                  <motion.tr
-                    initial={{ x: -100, opacity: 0 }}
-                    whileInView={{ x: 0, opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{
-                      delay: 0.1,
-                      x: { type: "spring", stiffness: 60 },
-                      ease: "easeInOut",
-                      duration: 0.6
-                    }}
-                    key={index}>
-                    <th scope="row">{about.title}</th>
-                    <td>{about.description}</td>
-                  </motion.tr>
-                )
-              })
-            }
-          </tbody>
-        </table>
-      </motion.div>
-      <motion.div
-        initial={{ y: -100, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{
-          delay: 0.1,
-          y: { type: "spring", stiffness: 60 },
-          ease: "easeInOut",
-          duration: 0.6
-        }}
-        className={styles.tableContent}>
-        <table className="table table-hover">
           <thead>
             <motion.tr
               initial={{ x: -100, opacity: 0 }}

@@ -38,6 +38,90 @@
     padding-bottom: 50px;
 }
 
+.aboutContainer {
+    height: max-content;
+    max-width: 100%;
+    background-color: #2f2f2f;
+    padding: 8px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    top: 0%;
+}
+
+.aboutContent {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 99;
+}
+
+.aboutContainer::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 700px;
+    width: 2500px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    animation: rotateBorder 5s linear infinite;
+}
+
+.aboutSubHeading {
+    color: silver;
+    font-style: "Montserrat", sans-serif;
+}
+
+@keyframes rotateBorder {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .aboutImg {
+        width: 60px;
+    }
+
+    .aboutHeadingText {
+        font-size: 3.5vw;
+    }
+
+    .aboutSubHeadingText {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .aboutContainer::after {
+        height: 500px;
+        width: 2000px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .aboutContainer::after {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutHeadingText {
+        font-size: 25px !important;
+    }
+
+    .aboutSubHeadingText {
+        font-size: 10px !important;
+    }
+}
+
 @media only screen and (max-width: 1080px) {
     .aboutUsHeadingText {
         font-size: 60px;
@@ -86,12 +170,12 @@
 }
 
 @media only screen and (max-width: 1720px) {
-    .comment{
+    .comment {
         display: none;
     }
 }
 
-.img{
+.img {
     width: 700px;
     object-fit: cover;
 }
