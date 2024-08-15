@@ -44,6 +44,8 @@ export default function RootLayout({
           src="https://kit.fontawesome.com/fbadad80a0.js"
           crossOrigin="anonymous"
         ></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DW9XL1EVY2"></script>
+        <script async src="js/analysis.js"></script>
       </Head>
       <body className={inter.className}>
         <Header />

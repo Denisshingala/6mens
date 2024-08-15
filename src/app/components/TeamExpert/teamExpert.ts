@@ -2,7 +2,7 @@ export const teamExperts = [
   {
     profile: "/img/experts/parth-mangukiya.jpg",
     name: "Parth Mangukiya",
-    profession: "Manager & CEO",
+    profession: "Founder",
     description:
       "As the founder and manager of 6Mens Infotech, I drive our strategic vision, build a talented team, nurture client relationships, and explore new opportunities for innovative solutions.",
     socialLinks: {
