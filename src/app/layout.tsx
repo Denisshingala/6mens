@@ -45,13 +45,13 @@ export default function RootLayout({
           crossOrigin="anonymous"
         ></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-DW9XL1EVY2"></script>
-        <script async src="js/analysis.js"></script>
       </Head>
       <body className={inter.className}>
         <Header />
         {children}
         <script src="/js/libraries/three.js"></script>
         <script src="js/three.js"></script>
+        {/* <script async src="js/analysis.js"></script> */}
         <Scroller />
         <Footer />
       </body>
