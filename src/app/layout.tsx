@@ -51,7 +51,7 @@ export default function RootLayout({
         {children}
         <script src="/js/libraries/three.js"></script>
         <script src="js/three.js"></script>
-        {/* <script async src="js/analysis.js"></script> */}
+        <script async src="js/analysis.js"></script>
         <Scroller />
         <Footer />
       </body>
