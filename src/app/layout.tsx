@@ -7,8 +7,7 @@ import Head from "next/head";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Scroller from "./components/Scoller/Scroller";
-import Loader from "./components/Loader/Loader";
-import background from "./assets/images/team-bg.webp"
+import Script from "next/script";
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
@@ -44,7 +43,7 @@ export default function RootLayout({
           src="https://kit.fontawesome.com/fbadad80a0.js"
           crossOrigin="anonymous"
         ></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DW9XL1EVY2"></script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-1VJVKE5D6P"></Script>
       </Head>
       <body className={inter.className}>
         <Header />
