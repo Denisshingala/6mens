@@ -43,14 +43,24 @@ export default function RootLayout({
           src="https://kit.fontawesome.com/fbadad80a0.js"
           crossOrigin="anonymous"
         ></script>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-1VJVKE5D6P"></Script>
+        <Script async strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-1VJVKE5D6P"></Script>
+        <Script strategy="lazyOnload" id="ga-script">
+          {
+            `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-1VJVKE5D6P');
+            `
+          }
+        </Script>
       </Head>
       <body className={inter.className}>
         <Header />
         {children}
         <script src="/js/libraries/three.js"></script>
         <script src="js/three.js"></script>
-        <script async src="js/analysis.js"></script>
         <Scroller />
         <Footer />
       </body>
