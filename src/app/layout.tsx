@@ -7,7 +7,6 @@ import Head from "next/head";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Scroller from "./components/Scoller/Scroller";
-import Script from "next/script";
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
@@ -43,20 +42,21 @@ export default function RootLayout({
           src="https://kit.fontawesome.com/fbadad80a0.js"
           crossOrigin="anonymous"
         ></script>
-        <Script async strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-1VJVKE5D6P"></Script>
-        <Script strategy="lazyOnload" id="ga-script">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DW9XL1EVY2"></script>
+        <script async src="js/analysis.js"></script>
+        {/* <script id="ga-script">
           {
             `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'G-1VJVKE5D6P', {
+              gtag('config', 'G-DW9XL1EVY2', {
                 page_path: window.location.pathname
               });
             `
           }
-        </Script>
+        </script> */}
       </Head>
       <body className={inter.className}>
         <Header />
